@@ -1,4 +1,4 @@
-- name: setup catalogue
+- name: setup catalogue component
   hosts: all
   become: yes
   vars:

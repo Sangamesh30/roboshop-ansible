@@ -3,7 +3,7 @@
 
 - name: Install NodeJS
   ansible.builtin.yum:
-    name: nodeJS
+    name: nodejs
     state: Installed
 
 
