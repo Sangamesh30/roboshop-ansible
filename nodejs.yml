@@ -1,4 +1,5 @@
 - name: Configuring NodeJS Repos
+  become: yes
   ansible.builtin.shell: curl -sL https://rpm.nodesource.com/setup_lts.x | bash
 
 
@@ -8,4 +9,4 @@
     state: Installed
 
 
-    #hello
+
