@@ -5,11 +5,3 @@
   ansible.builtin.yum:
     name: nodejs
     state: Installed
-
-
-
-
-
-
-
-
